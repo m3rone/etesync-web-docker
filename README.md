@@ -7,7 +7,7 @@ The EteSync Web App - Use EteSync from the browser!
 
 # Docker support
 
-This fork specifically adds Docker support and nothing else. You can build your own image or use a prebuilt one called `ghcr.io/m3rone/etesync-web-docker:latest`
+This fork specifically adds Docker support and dependency bumps. You can build your own image or use a prebuilt one called `ghcr.io/m3rone/etesync-web-docker:latest`
 
 It uses nginx to serve the webapp, so you can use environment variables to configure the web server<sup>[1](https://github.com/docker-library/docs/tree/master/nginx#using-environment-variables-in-nginx-configuration-new-in-119)</sup>.
 
